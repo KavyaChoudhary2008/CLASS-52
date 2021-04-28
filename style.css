@@ -1,0 +1,91 @@
+h1{
+    color:purple  
+   }
+   h2{
+       color:#00008b;
+       text-align : center;
+   }
+
+  /* *{
+border:solid
+}*/
+
+.grid{
+background-color: #000000;
+display:flex;
+justify-content:space-evenly;
+flex-wrap: wrap;
+}
+
+.footer{
+    background-color: pink;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.header{
+    background-image: url("brick.jpg");
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom:20px;
+    border:solid;
+    padding-left: 20px;
+    padding-top: 10px;
+} 
+
+.menu{
+    border:solid;
+    color:aqua;
+    
+}
+p{
+    color: #b12b2bd7;
+text-align: center; 
+}
+.item{
+background-color: #eee5e5;
+
+}
+.item p{
+color:cadetblue;
+}
+.item:hover p{
+    opacity:1;
+    color:aqua;
+
+}
+
+.item:hover img{
+    opacity:0.33;
+
+}
+a:link{
+    color:aqua;
+}
+a:visited{
+    color:yellow;
+}
+a:active{
+color:green;
+}
+a:hover{
+    color:blue;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type:upper-roman;
+}
+#h{
+    color:aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table,th,td{
+    border:solid;
+    border-color:pink;
+}
